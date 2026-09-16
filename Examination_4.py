@@ -6,4 +6,12 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-color = input()
+color = input("สีของสัญญาณไฟจราจร")
+if color("red"):
+    print ("Stop")
+elif color("yellow"):
+    print ("Slow")
+if color("green"):
+    print ("Go")
+else:
+    print("Invalid")
